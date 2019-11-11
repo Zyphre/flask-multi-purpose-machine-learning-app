@@ -1,0 +1,14 @@
+Werkzeug
+Flask
+flask_blueprint
+flask_login
+SQLAlchemy
+flask_SQLAlchemy
+numpy
+Keras
+gevent
+pillow
+h5py
+tensorflow
+python-dotenv
+stripe

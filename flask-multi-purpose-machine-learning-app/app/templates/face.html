@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block content %}
+
+<h4> Facial expression analyzer </h4>
+<h1>What does your face say?!</h1>
+
+<div>
+    <img width=400px height=300px src="{{ url_for('auth.video_feed') }}">
+</div>
+<h5>loading webcam stream...</h5>
+<a href="{{ url_for('auth.index') }}" class="btn btn-primary btn-lg " id="facebtn">UwU</a>
+
+{% endblock %}
